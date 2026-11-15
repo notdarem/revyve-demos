@@ -35,7 +35,7 @@ let A = null, loading = null;
 export function getA() {
   if (A) return Promise.resolve(A);
   if (level !== 'full') return Promise.resolve(null);
-  return (loading ||= import('./vendor/anime.esm.min.js?v=buhud').then((m) => (A = m)).catch(() => null));
+  return (loading ||= import('./vendor/anime.esm.min.js?v=ipp79n').then((m) => (A = m)).catch(() => null));
 }
 
 /* ---------- наблюдатель: первый ответ = «за экраном или нет» ---------- */

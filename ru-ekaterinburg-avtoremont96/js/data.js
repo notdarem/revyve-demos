@@ -1,7 +1,7 @@
 /* Данные сайта. Собрано из leads/ru-ekaterinburg-avtoremont96/lead.json — 2026-11-15.
    Правите руками — потом запустите tools/prerender.mjs для этой папки. */
 export default {
- "v": "15l9it9",
+ "v": "rxoncl",
  "lang": [
   "ru"
  ],
@@ -847,7 +847,7 @@ export default {
   },
   "motionEntry": "niche-motion.js",
   "nicheJs": true,
-  "cssv": "gvmth9",
-  "jsv": "buhud"
+  "cssv": "1ghh4rz",
+  "jsv": "ipp79n"
  }
 };

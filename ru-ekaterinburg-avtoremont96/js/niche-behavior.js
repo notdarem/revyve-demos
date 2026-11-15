@@ -5,7 +5,7 @@
    одинаковые услуги разных серий сводятся в одну строку, при смене серии цены
    перестраиваются (FLIP: только transform и opacity, без анимации размеров).
    ===================================================================== */
-import data from './data.js?v=buhud';
+import data from './data.js?v=ipp79n';
 
 const root = document.querySelector('[data-series-root]');
 if (root) init(root);

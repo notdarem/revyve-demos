@@ -7,8 +7,8 @@
    Никаких фактов здесь нет: всё берётся из модели, пустое не выводится.
    ===================================================================== */
 
-import { esc, pad, hash, tpl, plural } from './util.js?v=buhud';
-import { DAYS, fmtTime, nowIn, hoursStatus, hoursSummary, dayText } from './hours.js?v=buhud';
+import { esc, pad, hash, tpl, plural } from './util.js?v=ipp79n';
+import { DAYS, fmtTime, nowIn, hoursStatus, hoursSummary, dayText } from './hours.js?v=ipp79n';
 export { esc, hash, tpl, plural, DAYS, fmtTime, nowIn, hoursStatus, hoursSummary };
 const has = (v) => v != null && v !== '' && !(Array.isArray(v) && !v.length);
 
@@ -118,7 +118,7 @@ export function createRenderer(model, lang, nicheFactory) {
 <div class="wrap hero__grid">
 <div class="hero__text">
 <div class="hero__card">
-<h1 id="h1" class="hero__title"><span class="hero__name">${tx(m.biz.name)}</span>${where ? `<span class="hero__what">${where}</span>` : ''}</h1>
+<h1 id="h1" class="hero__title"><span class="hero__name" style="--name-len:${Math.max(1, ...String(m.biz.name).split(/\s+/).map((w) => w.length))}"><span class="hero__fit">${tx(m.biz.name)}</span></span>${where ? `<span class="hero__what">${where}</span>` : ''}</h1>
 ${trust ? `<ul class="trust" aria-label="${esc(t('sec_reviews'))}">${trust}</ul>` : ''}
 ${extra}
 <div class="cta">${btnCall()}${btnMsg(primary)}</div>

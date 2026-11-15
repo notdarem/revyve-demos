@@ -1,10 +1,10 @@
 /* =====================================================================
    niches/auto/motion.js — движение автосервиса.
    В готовом сайте лежит как js/niche-motion.js рядом с js/motion.js,
-   поэтому импорт относительный './motion.js?v=fl093q' (в исходниках не запускается).
+   поэтому импорт относительный './motion.js?v=jiaqvl' (в исходниках не запускается).
    Характер (быстро/с ударом для street, плавно для premium) — из темы.
    ===================================================================== */
-import { register } from './motion.js?v=fl093q';
+import { register } from './motion.js?v=jiaqvl';
 
 register(({ P, FX, reveal, watch, getA }) => {
   const $$ = (s) => [...document.querySelectorAll(s)];

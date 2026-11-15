@@ -1,7 +1,7 @@
-/* Данные сайта. Собрано из leads/ru-kazan-lukas-bmw/lead.json — 2026-11-11.
+/* Данные сайта. Собрано из leads/ru-kazan-lukas-bmw/lead.json — 2026-11-15.
    Правите руками — потом запустите tools/prerender.mjs для этой папки. */
 export default {
- "v": "adjjko",
+ "v": "1ixqa",
  "lang": [
   "ru"
  ],
@@ -1735,7 +1735,7 @@ export default {
   },
   "motionEntry": "niche-motion.js",
   "nicheJs": true,
-  "cssv": "1dh7sch",
-  "jsv": "fl093q"
+  "cssv": "pncvq3",
+  "jsv": "jiaqvl"
  }
 };

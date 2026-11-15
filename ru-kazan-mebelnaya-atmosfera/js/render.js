@@ -7,8 +7,8 @@
    Никаких фактов здесь нет: всё берётся из модели, пустое не выводится.
    ===================================================================== */
 
-import { esc, pad, hash, tpl, plural } from './util.js?v=ilmafz';
-import { DAYS, fmtTime, nowIn, hoursStatus, hoursSummary, dayText } from './hours.js?v=ilmafz';
+import { esc, pad, hash, tpl, plural } from './util.js?v=v64zgu';
+import { DAYS, fmtTime, nowIn, hoursStatus, hoursSummary, dayText } from './hours.js?v=v64zgu';
 export { esc, hash, tpl, plural, DAYS, fmtTime, nowIn, hoursStatus, hoursSummary };
 const has = (v) => v != null && v !== '' && !(Array.isArray(v) && !v.length);
 

@@ -1,7 +1,7 @@
 /* Данные сайта. Собрано из leads/ru-kazan-mebelnaya-atmosfera/lead.json — 2026-11-15.
    Правите руками — потом запустите tools/prerender.mjs для этой папки. */
 export default {
- "v": "1kjj83j",
+ "v": "1oha6dx",
  "lang": [
   "ru"
  ],
@@ -739,7 +739,7 @@ export default {
   },
   "motionEntry": "niche-motion.js",
   "nicheJs": true,
-  "cssv": "14rail2",
-  "jsv": "ilmafz"
+  "cssv": "unybga",
+  "jsv": "v64zgu"
  }
 };

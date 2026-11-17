@@ -1,7 +1,7 @@
 /* Данные сайта. Собрано из leads/kz-almaty-diamond-mebel/lead.json — 2026-11-17.
    Правите руками — потом запустите tools/prerender.mjs для этой папки. */
 export default {
- "v": "o0n1bf",
+ "v": "wec6u3",
  "lang": [
   "ru"
  ],
@@ -258,16 +258,7 @@ export default {
   }
  ],
  "faq": [],
- "logo": {
-  "srcW": 150,
-  "srcH": 150,
-  "src": "img/logo-150.webp",
-  "w": 48,
-  "h": 48,
-  "lg": "img/logo-150.webp",
-  "lgw": 150,
-  "lgh": 150
- },
+ "logo": null,
  "niche": {
   "products": {
    "items": [
@@ -519,6 +510,6 @@ export default {
   "motionEntry": "niche-motion.js",
   "nicheJs": true,
   "cssv": "16yggwf",
-  "jsv": "1cv8qht"
+  "jsv": "192ix0g"
  }
 };

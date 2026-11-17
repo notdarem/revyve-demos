@@ -3,9 +3,9 @@
    рендер не блокирует. Всё, что здесь делается, — улучшение:
    без JS статичная разметка уже полная и рабочая.
    ===================================================================== */
-import data from './data.js?v=1cv8qht';
-import { hash, tpl } from './util.js?v=1cv8qht';
-import { hoursStatus, nowIn } from './hours.js?v=1cv8qht';
+import data from './data.js?v=192ix0g';
+import { hash, tpl } from './util.js?v=192ix0g';
+import { hoursStatus, nowIn } from './hours.js?v=192ix0g';
 
 const html = document.documentElement;
 const lang = html.lang || data.lang[0];
@@ -19,7 +19,7 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 /* 0. data.js правили руками и prerender не запускали → перерисовать из данных */
 async function ensureFresh() {
   if (html.dataset.prerendered === hash(data)) return;
-  const [{ createRenderer }, niche] = await Promise.all([import('./render.js?v=1cv8qht'), import('./niche.js?v=1cv8qht')]);
+  const [{ createRenderer }, niche] = await Promise.all([import('./render.js?v=192ix0g'), import('./niche.js?v=192ix0g')]);
   const R = createRenderer(data, lang, niche.default);
   $('#app').innerHTML = R.body();
   const s = R.seo();
@@ -280,7 +280,7 @@ async function init() {
     if (document.readyState === 'complete') idle(); else addEventListener('load', idle, { once: true });
   });
   run([lightbox, maps, locTabs, priceAccordion, worksFilter, year]);
-  if (html.dataset.nicheJs) import('./niche-behavior.js?v=1cv8qht').catch((e) => console.error('[site] niche-behavior', e));
+  if (html.dataset.nicheJs) import('./niche-behavior.js?v=192ix0g').catch((e) => console.error('[site] niche-behavior', e));
   html.classList.add('is-ready');
   dispatchEvent(new Event('site:ready'));
 }

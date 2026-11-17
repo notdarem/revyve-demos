@@ -1,5 +1,5 @@
 /* core/hours.js — часы работы и статус «Открыто до …» по часовому поясу бизнеса */
-import { tpl, pad } from './util.js?v=1cv8qht';
+import { tpl, pad } from './util.js?v=192ix0g';
 
 export const DAYS = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 export const fmtTime = (m) => `${Math.floor(m / 60)}:${pad(m % 60)}`;
